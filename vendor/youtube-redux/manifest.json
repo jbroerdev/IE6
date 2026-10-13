@@ -1,0 +1,65 @@
+{
+  "name": "YouTube Redux",
+  "version": "3.12.0",
+  "description": "Replicate old YouTube look and features within the modern layout!",
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "exclude_matches": [
+        "*://*.youtube.com/embed/*"
+      ],
+      "js": [
+        "helpers/logger.js",
+        "helpers/enums.js",
+        "helpers/states.js",
+        "initial-setup.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "exclude_matches": [
+        "*://*.youtube.com/embed/*"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/*"
+      ],
+      "matches": [
+        "*://*.youtube.com/*"
+      ]
+    },
+    {
+      "resources": [
+        "helpers/*"
+      ],
+      "matches": [
+        "*://*.youtube.com/*"
+      ]
+    }
+  ],
+  "manifest_version": 3,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0vCjwbfxphbxtKpkN9qlWkLu2Z97n4GpZPtji8hgIUFwBuW2yu5wrj69YaqFjMK/EGKluWfZhUxc5NtnCsZIdr83mdvgX+kcU3taHHDjMECqMVlVdxTvV2muyLj5XmqlpRcDLaOP8bIrThqTt4GkNRrurOJTuwmD91XveWjMRe/z//RaOS3EVwMi23e4CLlHcuj04wSlYc675htcitSF+6Szcq6s1oKbIoeuA/7J1ltfDsNYSr9fj2lfzKnezqn9UI9HLhVE0GLS8agEEhspbmpm4HLlD6Rk+eBQ6WKHTqDDDdkusIN5PO7kBpovhTZ4U9yzYjDRtJBKqN5IkLrc8QIDAQAB"
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+reference/
+archive/
+qa/
+preview.png
+ui/assets/
+lib/generated/
+vendor/adguard-filters/
+.publication/

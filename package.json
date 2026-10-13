@@ -1,0 +1,51 @@
+{
+  "name": "classic-browser",
+  "version": "0.3.1",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "description": "Chromium browser with a native Windows frame and Spyglass-based interface",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "node scripts/build-engines.js && electron-builder --win portable",
+    "prepare-assets": "node scripts/prepare-assets.js",
+    "bootstrap": "node scripts/prepare-assets.js && node scripts/build-engines.js && node scripts/download-filters.js",
+    "prepare-builtins": "node scripts/prepare-builtins.js && node scripts/build-engines.js && node scripts/download-filters.js"
+  },
+  "devDependencies": {
+    "@adguard/extended-css": "2.2.1",
+    "@adguard/scriptlets": "2.5.1",
+    "@adguard/tsurlfilter": "6.0.3",
+    "electron": "44.7.0",
+    "electron-builder": "26.15.3",
+    "esbuild": "0.28.2",
+    "pngjs": "7.0.0"
+  },
+  "build": {
+    "appId": "de.classic.browser",
+    "productName": "Classic Browser",
+    "files": [
+      "main.js",
+      "preload.js",
+      "lib/**/*",
+      "ui/**/*",
+      "vendor/**/*",
+      "scripts/smoke.js",
+      "scripts/fullscreen-checks.js",
+      "scripts/builtins-checks.js",
+      "scripts/capture-window.ps1",
+      "THIRD_PARTY_NOTICES.md",
+      "LICENSE"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "ui/assets/browser.ico"
+    },
+    "compression": "normal",
+    "asarUnpack": [
+      "lib/*.ps1",
+      "scripts/*.ps1",
+      "vendor/youtube-redux/**/*"
+    ]
+  }
+}

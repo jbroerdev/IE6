@@ -1,0 +1,363 @@
+[
+  {
+    "key": "gridItems",
+    "default": 6,
+    "label": "Number of video thumbnails per row"
+  },
+  {
+    "key": "hideAutoplayButton",
+    "default": false
+  },
+  {
+    "key": "hideCastButton",
+    "default": false
+  },
+  {
+    "key": "darkPlaylist",
+    "default": true,
+    "label": "Use dark theme for playlists"
+  },
+  {
+    "key": "smallPlayer",
+    "default": true,
+    "label": "Use small video player Custom..."
+  },
+  {
+    "key": "smallPlayerWidth",
+    "default": 853,
+    "label": "Use small video player Custom..."
+  },
+  {
+    "key": "showRawValues",
+    "default": true,
+    "label": "Show precise values for likes/dislikes"
+  },
+  {
+    "key": "classicLikesColors",
+    "default": false,
+    "label": "Use green/red colors for likes/dislikes bar"
+  },
+  {
+    "key": "autoConfirm",
+    "default": true,
+    "label": "Auto confirm 'Video paused' popup"
+  },
+  {
+    "key": "disableInfiniteScrolling",
+    "default": false,
+    "label": "Disable infinite scrolling"
+  },
+  {
+    "key": "blackBars",
+    "default": true,
+    "label": "Use pillarboxing"
+  },
+  {
+    "key": "rearrangeInfo2",
+    "default": true,
+    "label": "Recreate old video page layout"
+  },
+  {
+    "key": "classicLogoChoice",
+    "default": 2017,
+    "label": "XL",
+    "choices": [
+      "XL",
+      "2005",
+      "2005alt",
+      "2011",
+      "2013",
+      "2015",
+      "2015alt",
+      "2017"
+    ]
+  },
+  {
+    "key": "filterMainRe",
+    "default": false,
+    "label": "No home"
+  },
+  {
+    "key": "filterVideo",
+    "default": true,
+    "label": "No video"
+  },
+  {
+    "key": "filterMiniRe",
+    "default": true,
+    "label": "Mini"
+  },
+  {
+    "key": "extraLayout",
+    "default": true,
+    "label": "Extra layout changes"
+  },
+  {
+    "key": "darkerRed",
+    "default": false,
+    "label": "Use darker red color"
+  },
+  {
+    "key": "immersiveFullscreen",
+    "default": false,
+    "label": "Immersive fullscreen mode"
+  },
+  {
+    "key": "trueFullscreen",
+    "default": false,
+    "label": "True fullscreen mode"
+  },
+  {
+    "key": "favicon",
+    "default": 3,
+    "choices": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "key": "squareAvatar",
+    "default": true,
+    "label": "Make own avatar square shaped"
+  },
+  {
+    "key": "squareSubs",
+    "default": true,
+    "label": "Make subs avatars square shaped"
+  },
+  {
+    "key": "noHomeScalingRe",
+    "default": true,
+    "label": "No homepage scaling"
+  },
+  {
+    "key": "squareSearch",
+    "default": true,
+    "label": "Make avatars in search results square shaped"
+  },
+  {
+    "key": "squareComments",
+    "default": true,
+    "label": "Make avatars in comments square shaped"
+  },
+  {
+    "key": "extraSidebarStyles",
+    "default": true,
+    "label": "Additional sidebar changes"
+  },
+  {
+    "key": "altVideoLayout",
+    "default": false,
+    "label": "Use alternative video page layout"
+  },
+  {
+    "key": "altVideoLayoutExtra",
+    "default": false,
+    "label": "Also rearrange likes/dislikes"
+  },
+  {
+    "key": "playlistsFirst",
+    "default": true,
+    "label": "Playlists grouping on homepage"
+  },
+  {
+    "key": "sortFoundPlaylists",
+    "default": true,
+    "label": "Strict grouping"
+  },
+  {
+    "key": "customTitleFont",
+    "default": false,
+    "label": "Custom video title font Arial Montserrat Comic Sans Motiva Sans Helvetica Lato Cent.Gothic Custom..."
+  },
+  {
+    "key": "titleFontValue",
+    "default": "Arial",
+    "label": "Custom video title font Arial Montserrat Comic Sans Motiva Sans Helvetica Lato Cent.Gothic Custom..."
+  },
+  {
+    "key": "hideVoiceSearch",
+    "default": false
+  },
+  {
+    "key": "subBorder",
+    "default": true,
+    "label": "Add border around subscribers count"
+  },
+  {
+    "key": "classicLikesStyle",
+    "default": true,
+    "label": "Use old icons for likes/dislikes"
+  },
+  {
+    "key": "classicLikesIconColors",
+    "default": false,
+    "label": "Use green/red colors for likes/dislikes buttons"
+  },
+  {
+    "key": "hideJoinButton",
+    "default": false
+  },
+  {
+    "key": "trimSubs",
+    "default": false,
+    "label": "Trim subscribers count"
+  },
+  {
+    "key": "trimViews",
+    "default": false,
+    "label": "Trim view count"
+  },
+  {
+    "key": "altStrings",
+    "default": false,
+    "label": "Use alternative video page strings"
+  },
+  {
+    "key": "extraChannel",
+    "default": true,
+    "label": "Extra channel page changes"
+  },
+  {
+    "key": "noPlayerActionAnimations",
+    "default": false,
+    "label": "Disable video player action animations"
+  },
+  {
+    "key": "altLoader",
+    "default": false,
+    "label": "Use alternative video loader"
+  },
+  {
+    "key": "altLoaderSmaller",
+    "default": false,
+    "label": "Smaller!"
+  },
+  {
+    "key": "oldIcons",
+    "default": true,
+    "label": "Restore old icons"
+  },
+  {
+    "key": "extraComments",
+    "default": true,
+    "label": "Restore old comments styles"
+  },
+  {
+    "key": "collapseSidebar",
+    "default": false,
+    "label": "Fully collapse sidebar on homepage"
+  },
+  {
+    "key": "hideShorts",
+    "default": true
+  },
+  {
+    "key": "hideRelatedVideoAgeRe",
+    "default": false
+  },
+  {
+    "key": "hideVideoCategory",
+    "default": true
+  },
+  {
+    "key": "hideDescriptionExtras",
+    "default": false
+  },
+  {
+    "key": "moveAutoplay",
+    "default": true,
+    "label": "Move Auto-play back to related videos"
+  },
+  {
+    "key": "disableMiniplayer",
+    "default": false,
+    "label": "Disable miniplayer"
+  },
+  {
+    "key": "hideCountryCode",
+    "default": false
+  },
+  {
+    "key": "disableVideoPreview",
+    "default": false,
+    "label": "Disable video preview"
+  },
+  {
+    "key": "autoExpandSidebarSections",
+    "default": false,
+    "label": "Auto expand sidebar sections"
+  },
+  {
+    "key": "compatibleDislikesRe",
+    "default": true,
+    "label": "Return YouTube Dislike compatibility"
+  },
+  {
+    "key": "hideDislikes",
+    "default": false
+  },
+  {
+    "key": "hideDownload",
+    "default": false
+  },
+  {
+    "key": "hideChaptersInSearch",
+    "default": true
+  },
+  {
+    "key": "hideChaptersInDescription",
+    "default": true
+  },
+  {
+    "key": "hideHeatmap",
+    "default": false
+  },
+  {
+    "key": "hideSurveys",
+    "default": true
+  },
+  {
+    "key": "hideHomeChannelAvatars",
+    "default": true
+  },
+  {
+    "key": "hideMixTopStack",
+    "default": true
+  },
+  {
+    "key": "ignoreAmbientAdjustment",
+    "default": false,
+    "label": "Ignore adjusting to Ambient Mode"
+  },
+  {
+    "key": "hideClickAnimations",
+    "default": true
+  },
+  {
+    "key": "hideHashtags",
+    "default": true
+  },
+  {
+    "key": "altUploadIcon",
+    "default": true,
+    "label": "Use old upload icon"
+  },
+  {
+    "key": "hideTicketShelf",
+    "default": true
+  },
+  {
+    "key": "hideAISummary",
+    "default": true
+  },
+  {
+    "key": "hideEndScreen",
+    "default": false
+  },
+  {
+    "key": "hideExtraSearchCategories",
+    "default": true
+  }
+]

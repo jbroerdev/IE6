@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "priority": 2,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "Accept", "operation": "remove" }]
+    },
+    "condition": {
+      "regexFilter": "^https://(i|preview).redd.it/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "host": "www.reddit.com",
+          "queryTransform": {
+            "removeParams": ["tl"]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(?:www|old)\\.reddit\\.com/",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
